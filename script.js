@@ -1,4 +1,5 @@
-console.log('Hello World!');
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice() {
     let num = Math.floor(Math.random() * 3);
@@ -29,4 +30,16 @@ function getHumanChoice() {
 
 }
 
-console.log(getHumanChoice());
+
+function playRound(humanChoice, computerChoice) {
+    console.log('human choice:', humanChoice);
+
+    if (humanSelection == 'rock' && computerChoice == 'scissors') {
+
+    }
+}
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+playRound(humanSelection, computerSelection);
+
